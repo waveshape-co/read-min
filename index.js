@@ -31,6 +31,3 @@ class ReadMin {
     this.textElement.textContent = this.getTime();
   }
 }
-
-const reader = new ReadMin("text-content", "reading-time");
-reader.init();

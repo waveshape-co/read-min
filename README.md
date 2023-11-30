@@ -7,7 +7,7 @@ A super easy article reading time calculation mini-library for Webflow etc.
 Import the code
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/waveshape-co/word-play@1.0.0/script.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/waveshape-co/read-min@1.0.0/script.min.js"></script>
 ```
 
 Init

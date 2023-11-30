@@ -7,17 +7,19 @@ A super easy article reading time calculation mini-library for Webflow etc.
 Import the code
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/waveshape-co/read-min@v.1.0.0/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/waveshape-co/read-min@v.1.0.1/index.js"></script>
 ```
 
 Init
 
 ```
 document.addEventListener("DOMContentLoaded", () => {
-  new ReadMin(
-    "text-content", // The rich text content element
+  const readMin = new ReadMin(
+    "rich-text-block", // The rich text content element
     "reading-time" // The text element displaying the reading time
   );
+
+  readMin.init();
 });
 ```
 
